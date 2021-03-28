@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: #f12711; 
+  background: -webkit-linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); 
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); 
+}
+  /* Nav Img */
+nav {
+  width: 100vw;
+  height: 30vh;
+  position: relative;
+}
+
+nav #date {
+  position: absolute;
+  bottom: 28px;
+  left: 16px;
+  color: black;
+  font-size: 2rem;
+}
+nav img {
+  width: 99%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+  /* Input box */
+
+input {
+  height: 30px;
+  width: 20vw;
+  border-radius: 20px;
+}
+input[type="text"] {
+  width: 20vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+button {
+  width: 70px;
+  height: 30px;
+  padding: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+section {
+  height: 100vh;
+  width: 40vw;
+
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+li {
+  margin-top: 10px;
+  list-style-type: none;
+  font-size: xx-large;
+  border-radius: 20px;
+  width: 20vw;
+}
+li button {
+  width: 60px;
+  height: 30px;
+  padding: 2px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+li:nth-last-of-type(even) {
+  background-color: black;
+  color: white;
+  padding: 12px;
+}
+li:nth-last-of-type(odd) {
+  background-color: white;
+  color: black;
+  padding: 12px;
+}
+
+/* Media Querry For Mobile */
+
+@media only screen and (max-width: 400px) {
+    /* Navbar img  */
+  nav #date {
+    position: absolute;
+    bottom: 84px;
+    left: 16px;
+    color: black;
+    font-size: 1.9rem;
+  }
+  nav img {
+    width: 99%;
+    height: 70%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+      /* Input  Section  */
+
+  section{
+      border:2px solid black;
+      margin: 50px auto;
+      cursor: pointer;
+      width: 90vw;
+      margin-top: 1px;
+  }
+  input {
+    height: 40px;
+    width: 90vw;
+    border-radius: 20px;
+  }
+  input[type="text"] {  
+    width: 90vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+        /* Addtodo Button  */
+
+  #btn{
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 38%;
+    border-radius: 4px;
+
+  } 
+ 
+  /* li CSS */
+
+  li {
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: large;
+    border-radius: 20px;
+    width: 82vw;
+    margin-left: 1px;
+  }
+  li button {
+    width: 60px;
+    height: 30px;
+    padding: 2px;
+    margin-left: 15px;
+  }
+  li:nth-last-of-type(even) {
+    background-color: black;
+    color: white;
+    padding: 12px;
+  }
+  li:nth-last-of-type(odd) {
+    background-color: white;
+    color: black;
+    padding: 12px;
+  }
+}
+
+/* Mediya query TAb */ /* Mediya query TAb *//* Mediya query TAb *//* Mediya query TAb *//* Mediya query TAb *//* Mediya query TAb */
+
+@media only screen and (max-width: 1024px) {
+  /* Navbar img  */
+nav #date {
+  position: absolute;
+  bottom: 84px;
+  left: 16px;
+  color: black;
+  font-size: 1.9rem;
+}
+nav img {
+  width: 99%;
+  height: 70%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+    /* Input  Section  */
+
+section{
+    border:2px solid black;
+    margin: 50px auto;
+    cursor: pointer;
+    width: 90vw;
+    margin-top: 1px;
+}
+input {
+  height: 40px;
+  width: 90vw;
+  border-radius: 20px;
+}
+input[type="text"] {  
+  width: 90vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+      /* Addtodo Button  */
+
+#btn{
+  width: 70px;
+  height: 30px;
+  padding: 5px;
+  margin-left: 38%;
+  border-radius: 4px;
+
+} 
+
+/* li CSS */
+
+li {
+  margin-top: 10px;
+  list-style-type: none;
+  font-size: large;
+  border-radius: 20px;
+  width: 82vw;
+  margin-left: 1px;
+}
+li button {
+  width: 60px;
+  height: 30px;
+  padding: 2px;
+  margin-left: 15px;
+}
+li:nth-last-of-type(even) {
+  background-color: black;
+  color: white;
+  padding: 12px;
+}
+li:nth-last-of-type(odd) {
+  background-color: white;
+  color: black;
+  padding: 12px;
+}
+}
